@@ -13,21 +13,23 @@
 
     Functions:
     ======================
-    >> loveiswildMain()                    - Inicializa a biblioteca.
+    loveiswildMain()                    - Inicializa a biblioteca.
+	
+	loveiswild.persona4.persona4Alert()           - teste 
+    loveiswild.persona3.persona3Alert()           - teste 
+    loveiswild.persona2.persona2Alert()           - teste
+    loveiswild.persona1.persona1Alert()           - teste 
     
-	gramado.ux4.ux4Alert()           - teste 
-    gramado.ux3.ux3Alert()           - teste 
-    gramado.ux2.ux2Alert()           - teste
-    gramado.ux1.ux1Alert()           - teste 
-    gramado.admin.validateForm()     - valida um formulário.
-    gramado.admin.function1()        - teste
-    gramado.admin.function2()        - teste
-    gramado.admin.function3()        - teste 
-    gramado.admin.messageShow()      - mostra uma mensagem de teste. 
-    gramado.admin.initializedAlert() - mensagem de alerta que a biblioteca foi inicializada. 
-    gramado.admin.myFunction()       - teste.
-    gramado.admin.download()         - baixa um arquivo escrito em uma área de texto.
-    Continua...
+	loveiswild.admin.validateForm()     - valida um formulário.
+    loveiswild.admin.function1()        - teste
+    loveiswild.admin.function2()        - teste
+    loveiswild.admin.function3()        - teste 
+    loveiswild.admin.messageShow()      - mostra uma mensagem de teste. 
+    loveiswild.admin.initializedAlert() - mensagem de alerta que a biblioteca foi inicializada. 
+    loveiswild.admin.myFunction()       - teste.
+    loveiswild.admin.download()         - baixa um arquivo escrito em uma área de texto.
+    
+	Continua...
 
     History:
         2019 Created by Fred Nora.
