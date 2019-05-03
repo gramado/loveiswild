@@ -20,7 +20,6 @@
     loveiswild.persona2.persona2Alert()           - teste
     loveiswild.persona1.persona1Alert()           - teste 
     
-	loveiswild.admin.validateForm()     - valida um formulário.
     loveiswild.admin.function1()        - teste
     loveiswild.admin.function2()        - teste
     loveiswild.admin.function3()        - teste 
@@ -139,8 +138,10 @@
 
     /* Administrando a biblioteca. Essas são as funcionalidades administrativas da biblioteca */
     function ADMIN(){
-        this.validateForm = do_validateForm;
-        this.function1 = do_function1;
+		
+ 
+        
+		this.function1 = do_function1;
         this.function2 = do_function2;
         this.function3 = do_function3;
         this.messageShow = do_messageShow;
@@ -185,117 +186,8 @@
         alert("do_initializedAlert: method working ~It's initialized!");
     }
  
-	/*  do_validateForm:
-		O objetivo desse método é capturar o input do form na página inicial, usado na busca, compará lo com o banco de dados,
-		apresentar o resultado em outra página /search que também será um mecanismo de pesquisa. */
-
-    function do_validateForm(){
-
-        var xHref;
-        var xSave;
-        var str;
-        /*var buffer;*/
-        /*var file_name;*/
-        /* ... */
-
-        /*alert("do_validateForm: Getting substring ...");*/
-
-        /* var GET = "gui";*/
-
-        var GET = window.location.search.substring(14);
-
-        if (GET == "")
-		{
-            document.myForm.search_input.value = "";
-            return 0;
-			
-        }else{
-            document.myForm.search_input.value = GET;
-        }
-
-        /* validate Form / show link */
-
-        xSave = document.myForm.search_input.value; 
-
-	/* Obs: 
-		Essa comparação não funciona, quando a busca é feita em /home.html, pois 
-		a análise é feita pelo js da página /seach.
-		Isso está aqui só para uso futuro.*/
-
-        str = "https://gramado.github.io/ home"; 
-        var resIndex = str.match(document.myForm.search_input.value);
-
-        str = "https://gramado.github.io/about fred nora Fred Nora Frederico economist developer author";
-        var resAboutMe = str.match(document.myForm.search_input.value);
-
-        str = "https://gramado.github.io/projects work kernel gui osdev source";
-        var resProjects = str.match(document.myForm.search_input.value);
-
-        str = "https://gramado.github.io/links social network twitter facebook youtube linkedin";
-        var resLinks = str.match(document.myForm.search_input.value);
-
-        str = "https://gramado.github.io/contact email business"; 
-        var resContactMe = str.match(document.myForm.search_input.value);
-
-        /* @TODO: PARSE SOME FILES AND TEXT TO FIND A RESULT */
-
-        /**/
-        if (resIndex == document.myForm.search_input.value){
-            document.myForm.search_input.value = "index.html";
-        }
-
-        /**/
-        if (resAboutMe == document.myForm.search_input.value){
-            document.myForm.search_input.value = "about";
-        }
-
-        /**/
-        if (resProjects == document.myForm.search_input.value){
-            document.myForm.search_input.value = "projects";
-        }
-
-        /**/
-        if (resLinks == document.myForm.search_input.value){
-            document.myForm.search_input.value = "links";
-        }
-
-        /**/
-        if (resContactMe == document.myForm.search_input.value){
-            document.myForm.search_input.value = "contact";
-        }
-
-		/* ... */
-
-        xHref = document.myForm.search_input.value;
-
-        /* Show formated link */
-        document.getElementById("link1").innerHTML = xSave;
-        document.getElementById("link1").href = xHref;
-        document.getElementById("link1").target = "_self";
-
-        document.myForm.search_input.value = xSave;
-
-		/* carregar página de /search com input*/
-
-
-		/* alert("~validate input Opening URL."); */
-
-        var url_search;
-        url_search = "https://gramado.github.io/search/?search_input=";
-
-		/*alert("do_validateForm: debug");*/
-
-		/*#bugbug*/
-		/*this.document.location.href = url_search + xSave; */
-		/*this.document.location.href = "www.google.com";*/
-
-		/*window.open(url_search,"_self",false);*/
-        var myWindow = window.open(url_search + xSave);
-		/*alert("do_validateForm: EXIT");*/
-
-		/* ?? O que acontece ao retornarmos, ??? inicializa a biblioteca quando chega no elemento 'body' ??*/
-		/* return 0; */
-    }
+ 
+	
 
     //Test 1.
     function do_function1(){
@@ -344,7 +236,7 @@
     }
 
     /* Esse método é para baixar um arquivo que foi construído em um form com os inputs 'filename_input' e 'filetext_input'. 
-       Para acionar esse método é usada a função >> gramado.admin.download(); */
+       Para acionar esse método é usada a função >> loveiswild.admin.download(); */
        
     function do_downloadFile(){
 
