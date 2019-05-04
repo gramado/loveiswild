@@ -86,8 +86,269 @@ disponível na web.
 
 
 
-/* 3.0 */
+/*
+ +3 
+ Typography.
+        Web Typography: 
+		The techniques and strategies used to style and arrange text on a web page. 
+		coisas de texto em geral
+ */
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	
+	a {
+		font-size: 16px;
+	}
+	
+	/* text */
+    a {
+        text-decoration: none;		
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+    }
+	
+	/* color */
+	a {
+        /*color: #337ab7;*/
+        color: #3b5998;		  
+        background-color: transparent;				
+	}
 
+    a:active {
+        outline: 1;		
+	}
+    
+	a:focus {
+        color: #23527c;
+        text-decoration: underline;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+    }
+	
+    a:hover {
+        text-decoration: underline;
+        color: #23527d;
+        outline: 5px auto -webkit-focus-ring-color;
+        outline-offset: -2px;
+        outline: 0;		
+	}
+		
+	b {
+		font-size: 14px;
+        font-weight: bold;
+    }
+
+	cite {
+       font-size: 11px;		
+	}
+
+	dd {
+       font-size: 8px;
+    }
+	
+	dl {
+       font-size: 8px;		
+	} 
+	
+	dt {
+       font-size: 8px;		
+	}
+		
+	
+	em {
+        font-size: 18px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}	
+	
+
+    h1 {
+        margin: .67em 0;
+    }
+	
+    /* all */
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+
+	/* big */
+    h1, .h1, h2, .h2, h3, .h3 {
+        margin-top: 16px;
+        margin-bottom: 11px;
+    }
+
+	/* small */
+    h4, .h4, h5, .h5, h6, .h6 {
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+
+	/* big */ 
+    h1, .h1 {
+        font-size: 36px;
+    }
+	
+    h2, .h2 {
+        font-size: 30px;
+    }
+	
+    h3, .h3 {
+        font-size: 24px;
+    }
+	
+    h4, .h4 {
+        font-size: 18px;
+    }
+	
+    h5, .h5 {
+        font-size: 14px;
+    }
+	
+	/* small */
+    h6, .h6 {
+        font-size: 12px;
+    }
+	
+    /* font */
+	input {
+        font-size: inherit;
+		font-family: inherit;
+    }
+	
+	/* line height */
+    input {
+        line-height: normal;
+    }
+	
+    p {
+        margin: 0 0 11px;
+    }
+	
+    mark, .mark {
+        padding: .2em;
+        background-color: #fcf8e3;
+    }
+
+	/* font */
+    small, .small {
+       /*font-size: 8px;*/		
+       font-size: 86%;	   
+	}
+	
+	
+    /* text */	
+	span {
+		font-size: 16px;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	/* color */
+	span {
+		color: #3b5998;
+	}
+
+
+    textarea {
+        overflow: auto;
+    }
+	
+    input,
+    button,
+    select,
+    textarea {
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+	
+    legend {
+        padding: 0;
+        border: 0;
+    }
+	
+	/* some text classes */
+	
+    .initialize-text {
+        font-size: 88%;
+        text-transform: uppercase;
+    }	
+	
+    .text-capitalize {
+        text-transform: capitalize;
+    }
+	
+    .text-center {
+        text-align: center;
+    }
+	
+    .text-danger {
+        color: #a94442;
+    }	
+	
+    .text-info {
+        color: #31708f;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+	
+    .text-left {
+        text-align: left;
+    }
+	
+    .text-muted {
+        color: #777;
+    }
+
+    .text-lowercase {
+        text-transform: lowercase;
+    }
+	
+    .text-nowrap {
+        white-space: nowrap;
+    }
+	
+    .text-right {
+        text-align: right;
+    }	
+	
+    .text-uppercase {
+        text-transform: uppercase;
+    }
+	
+
+    .text-primary {
+        color: #337ab7;
+    }
+
+    .text-warning {
+        color: #8a6d3b;
+    }
+
+    ul.post-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+		
+	   /* 
+	    list-style-image: url('https://frednora.github.io/images/favicon.ico');
+		list-style-position: left; 
+		*/
+    }	
 
 
 
