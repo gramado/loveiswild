@@ -1,10 +1,1333 @@
 /* 
     love is wild - css
 
+    Client side CSS library.
+
+	Segue um modelo de organização da biblioteca por tipo de elemento:
+    =================================================================
+   
+    Obs: Essa organização é inspirada na organização de outra biblioteca open source
+disponível na web.
+    Obs: Ordem: Reset/Elements/Typography/Globals/@media MAX/@media MIN.
+	
+1.0:
+    Reset. ?? 
+	(Inicializações).
+	
+2.0:
+    Elements. 
+	Elementos básicos. 
+	Os elementos básicos de html como 
+	del, figure, img, th, td, (th, td) ,caption, table dd, dt,dl li, ul, ol, hr.
+
+3.0:
+    Typography.
+	Big, small (font size ??) 
+	sup, sub, 
+	mark, ins, pre, samp, var, tt, kbd, code, address, blockquote support, 
+	h1, h2, h3, h4, h5, h6 ... 
+	p, b, 
+	strong, dfn, cite, em, i, body,
+    button, input, select, textarea,
+		
+	
+4.0: 
+    Classes globais.
+	persona1 (spirit.:), persona2 (cort.:), persona3 (limb.:) , persona4 (rep.:)
+ 
+5.0:
+   @media MIN
+   algum tipo de responsividade, reagindo ao tamanho mínimo do dispositivo.
+
+
     2019 - Created by Fred Nora.
 */
 
 
 
-/* +1 Reset */
+/* 1.0 reset */
+
+/* 2.0 */
+
+/* 3.0 */
+
+
+/* 4.0 */
+
+
+/*
+  5.0
+ ************************************ @media MIN *******************************     
+ */
+
+
+/* 
+Alguns elementos gráficos ficam evidenciados à medidada que a tela aumenta.
+algumas fontes tem que aumentar.
+ */ 
+ 
+ 
+@media screen and (min-width: 320px) { 
+    .container {
+        width: 300px;
+    }
+ 
+    .container-fluid {
+        width: 320px;
+    }
+}
+ 
+@media screen and (min-width: 480px) { 
+    .container {
+        width: 460px;
+    }
+ 
+    .container-fluid {
+        width: 480px;
+    }
+} 
+
+@media screen and (min-width: 640px) { 
+    .container {
+        width: 620px;
+    }
+ 
+    .container-fluid {
+        width: 640px;
+    }
+}
+ 
+@media screen and (min-width: 720px) { 
+    .container {
+        width: 700px;
+    }
+ 
+    .container-fluid {
+        width: 720px;
+    }
+} 
+
+@media (min-width: 768px) {
+    .container {
+        width: 748px;
+    }
+ 
+    .container-fluid {
+        width: 768px;
+    }
+	
+  .navbar {
+    border-radius: 4px;
+  }  
+
+   .navbar-form {
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  } 
+  
+   .navbar-header {
+    float: left;
+  }
+  
+  .navbar-text {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .navbar-static-top {
+    border-radius: 0;
+  }
+  
+  .navbar-toggle {
+    display: none;
+  }  
+  .lead {
+    font-size: 21px;
+  }  
+}
+
+ 
+@media screen and (min-width: 800px) {
+    .container {
+        width: 780px;
+    }
+ 
+    .container-fluid {
+        width: 800px;
+    }
+}  
+ 
+@media (min-width: 992px) {
+    .container {
+        width: 972px;
+    }
+ 
+    .container-fluid {
+        width: 992px;
+    }
+
+} 
+ 
+
+
+ 
+/* 
+ >> MIN 1023px
+ Responsive for large width, hide menu itens. */
+@media screen and (min-width: 1024px) {
+	
+/*reset  screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 16px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+}
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 16px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 16px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 16px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 16px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 14px;
+    } 
+	
+
+    .container {
+        width: 1004px;
+    }
+ 
+    .container-fluid {
+        width: 1024px;
+    }
+	
+		
+
+    .persona3-logic-navigation .persona3-logic-nav-item:first-child {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        display: none;
+    }
+    
+    .persona3-logic-responsive .persona3-logic-nav-item:not(:first-child) {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        display: none;
+    }
+    
+	.persona3-logic-responsive a.persona3-logic-icon {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        float: left;
+        display: block;
+    }
+  
+    .persona3-logic-responsive {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border:2px solid #e1e8ed;
+        border-bottom:2px solid #e1e8ed;
+        background-color:#fff;
+        float: center;
+        display: block;
+        width:100%;
+        height:60px;
+        text-align:center;
+    }
+   
+    .persona3-logic-responsive .persona3-logic-nav-item {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        float:left;
+        display: block;
+        text-align:center;
+    }
+
+    .persona3-logic-responsive .persona3-logic-nav-item a {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px; 
+        border-right:2px solid #e1e8ed;
+        padding: 20px 40px 19px 40px;
+        color:#55acee;
+        text-decoration:none;
+        transition: box-shadow 100ms ease;
+    }
+
+    .persona3-logic-responsive .persona3-logic-nav-item:last-child a {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border-right:none;
+    }
+  
+    .persona3-logic-responsive .persona3-logic-nav-item a:hover {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        box-shadow: 0 -16px 0 -11px #55acee inset;
+        /*box-shadow: 0 -15px 0 -10px #55acee inset;*/
+    }
+	
+
+	
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1180px;
+    }
+ 
+    .container-fluid {
+        width: 1200px;
+    }
+} 
+
+@media screen and (min-width: 1280px) {
+	
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 21px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+}
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 21px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 21px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 21px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 21px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 20px;
+    } 
+	
+
+    
+	#b { 
+        font-size: 21px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}	
+	
+	#w {   
+	    font-size: 21px;
+		font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+	#persona4 {   
+	    font-size: 21px;
+		font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #devil { 
+	    font-size: 21px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}	
+	
+    .container {
+        width: 1260px;
+    }
+ 
+    .container-fluid {
+        width: 1280px;
+    }
+	
+} 
+
+@media screen and (min-width: 1366px) { 
+
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 21px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 21px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 21px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 21px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 21px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 20px;
+    } 
+	
+    
+	#b { 
+        font-size: 21px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+    
+	#w {
+        font-size: 21px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+    
+	#persona4 {
+        font-size: 21px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #devil { 
+	    font-size: 21px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}
+
+    .container {
+        width: 1346px;
+    }
+ 
+    .container-fluid {
+        width: 1366px;
+    }
+} 
+
+
+@media screen and (min-width: 1440px) { 
+
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 28px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 28px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 28px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 28px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 28px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 26px;
+    } 
+	 
+ 
+	#b { 
+        font-size: 28px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+    
+	#w {
+        font-size: 28px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+    
+	#persona4 {
+        font-size: 28px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #devil { 
+	    font-size: 28px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}
+
+    .container {
+        width: 1420px;
+    }
+ 
+    .container-fluid {
+        width: 1440px;
+    }
+} 
+
+@media screen and (min-width: 1600px) { 
+  
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 28px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 28px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 28px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 28px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 28px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 26px;
+    } 
+	
+  
+	#b { 
+        font-size: 28px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}  
+	
+	#w {
+        font-size: 28px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+    
+	#persona4 {
+        font-size: 28px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #devil { 
+	    font-size: 28px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}	
+	
+    .container {
+        width: 1580px;
+    }
+ 
+    .container-fluid {
+        width: 1600px;
+    }
+} 
+
+@media screen and (min-width: 1920px) {
+
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 36px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 36px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 36px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 36px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 36px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 34px;
+    } 
+	
+
+ 	
+
+    #b { 
+        font-size: 36px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #w {
+        font-size: 36px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #persona4 {
+        font-size: 36px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #devil { 
+	    font-size: 36px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}
+
+    .container {
+        width: 1900px;
+    }
+ 
+    .container-fluid {
+        width: 1920px;
+    } 
+} 
+
+@media screen and (min-width: 2048px) {
+	
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 38px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 38px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 38px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 38px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 38px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 36px;
+    } 
+		
+	
+ 
+
+    #b { 
+        font-size: 38px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+	#w {
+        font-size: 38px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}	
+	
+	#persona4 {
+        font-size: 38px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+
+    #devil { 
+	    font-size: 38px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}	
+
+    .container {
+        width: 2028px;
+    }
+ 
+    .container-fluid {
+        width: 2048px;
+    }
+
+} 
+
+@media screen and (min-width: 2560px) {
+
+	/*reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 40px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 40px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 40px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 40px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 40px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 38px;
+    } 	
+
+ 
+	
+    #b { 
+        font-size: 40px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #w {
+        font-size: 40px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+		
+	}
+
+    #persona4 {
+        font-size: 40px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+		
+	}
+	
+    #devil { 
+	    font-size: 40px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}
+
+    .container {
+        width: 2560px;
+    }
+ 
+    .container-fluid {
+        width: 2540px;
+    }
+
+} 
+
+/* 4k */
+@media screen and (min-width: 3840px) { 
+
+	/* Reset big screen */
+html,
+    source,
+head,
+    del, 
+body,
+    h1, big, 
+    h2, strong, 
+    h3, div, form, fieldset, iframe, frame, span, ol, ul, li, a, p, 
+    h4, 
+    h5, 
+    h6, small {
+	
+	font-size: 42px;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	vertical-align: baseline;
+	outline: 0;
+    }
+	
+
+    iframe {
+		float: center;
+        /*margin: 0;*/
+		/*margin-left:11px;
+		margin-right:11px;*/
+		/*border: none;*/
+		/*border-bottom:1px solid #e1e8ed;*/
+        padding-left: 1px;
+        padding-right: 1px;
+		
+		width: 95%;   
+        height: 95%;
+    }		
+	
+	/*Typography. big screen*/
+	
+	/*Emphasized text*/ 
+	em {
+        font-size: 42px;
+        font-weight: bold; 		
+	}
+	
+	font {
+	    /*font-weight: bold; */ 		
+	}
+	
+	strong {
+	    font-weight: bold; 	
+	}
+	
+	a, span {
+		font-size: 42px;
+		color: #3b5998;
+		text-decoration: none;
+        text-decoration-color: currentcolor;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+	}
+	
+	b {
+		font-size: 42px;
+        font-weight: bold;
+    }
+	
+	cite {
+       font-size: 42px;		
+	}
+	
+    small, dl, dt, dd {
+       font-size: 40px;
+    } 
+
+
+	
+    #b { 
+        font-size: 42px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #w {
+        font-size: 42px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+	}
+	
+    #persona4 {
+        font-size: 42px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+		
+	}
+	
+    #devil { 
+	    font-size: 42px;
+		font-family: arial, sans-serif;
+        font-weight: normal;	
+	}
+	
+    .container {
+        width: 3800px;
+    }
+ 
+    .container-fluid {
+        width: 3840px;
+    }
+	
+    .persona1-action-links {
+	    display: none;	
+	}
+
+	.table {
+	     text-align: right;
+	}
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
