@@ -47,12 +47,964 @@ disponível na web.
 
 /* 1.0 reset */
 
-/* 2.0 */
+
+
+
+
+/* 2.0 elements. html, head, body */
+
+    html {
+	    /* naturalmente pequena no html */
+        font-size: 11px;
+		font-family: "Minion", fantasy, Optima; /*font-family: sans-serif;*/
+        padding:0;
+		border:0;
+        margin:0;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);		
+    } 
+
+    head { /* Nothing */ }
+ 
+	body {
+	    
+		/* naturalmente média o|o no body  (A) */
+		font-size: 14px;
+        font-family: "Decorative", Schola, American ; /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+        margin: 0;	       
+		position: absolute;
+ 	
+		/*content: "";*/
+		/*margin-top: 0;*/
+		/*border:0;*/
+        /*padding:0;*/
+        /*background:	#D8D8D8;*/
+        /*background-color: #D8D8D8;*/		
+        /*line-height: 1.42857143;*/
+        /*color: #333;*/
+        /*background-color: #fff;*/
+    }	
+
+
 
 /* 3.0 */
 
 
+
+
+
+
 /* 4.0 */
+
+
+/*
+ +4
+    Classes globais.
+	Project Gramado Personas.
+	
+*****************************************
+   AQUI É O SUPORTE AS CLASSES GLOBAIS:
+   ux4 ~> ux3 ~> ux2 ~> ux1.
+*****************************************
+
+    This is a personal touch.
+	2017 - Created by Fred Nora.
+*/
+
+    /*  #persona1 spirit */
+	 
+    .persona1-thinking {
+        
+		/* font */
+		font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        
+		/* margin */
+		margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+	
+
+    .persona1-thinking-container {
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+	
+    .persona1-thinking-container-module{
+        margin-left: auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        width: 75%;
+        background-color: #D8D8D8;	
+    } 	
+
+    .persona1-thinking-mistic {
+        font-size: 16px; 
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .persona1-thinking-header {
+        font-size: 16px; 
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+	
+    .persona1-thinking-header-string {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        color: #6D6D6D;
+    }
+
+    .persona1-thinking-banner {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .persona1-thinking-branding {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .persona1-thinking-quotes {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .persona1-thinking-inspirational-quotes {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .persona1-thinking-header-img {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        color: #6D6D6D;
+    }
+
+    .persona1-thinking-login-link {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        color: #6D6D6D;
+    }
+
+    /*botão simples*/
+    .persona1-thinking-buttons {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 2px;
+        color: #757575;
+        width: 125px;
+        height: 36px;
+    }
+
+    /*botão simples*/
+    .persona1-thinking-buttons:hover {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 2px;
+        color: #000000;
+        width: 125px;
+        height: 36px;
+    }
+	
+    .persona1-thinking-forms {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        text-align: center;
+		width: 50%;
+    }
+
+    .persona1-thinking-singlelineEditBox {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 2px;
+        width: 403px;
+        height: 34px;
+    }	
+
+    .persona1-thinking-multiplelinesEditBox {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 2px;
+        width: 403px;
+        height: 403px;
+    }	
+	
+    .persona1-thinking-footer { /*EF*/
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        border: 2px solid Gray;
+        border-bottom: 8px solid #A0A0A0;
+        background-color: #E0E0E0;
+        color: #EEEEEE;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+	
+	
+	.persona1-thinking-text-primary {
+        color: #337ab7;
+    }
+	
+	
+    .persona1-thinking-bg-primary {
+        color: #fff;
+        background-color: #337ab7;
+    }	
+
+
+    /*  #persona2 cortex  */
+
+
+    .persona2-logic {
+		
+		/* font */
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        
+		/* margin */
+		margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+	
+    .persona2-logic-container {
+        padding-right: 14px;
+        padding-left: 14px;
+        margin-right: auto;
+        margin-left: auto;
+    }	
+
+    .persona2-logic-romantic {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .persona2-logic-abstract{
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .persona2-logic-choices{
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    /* navigation support */
+
+    .persona2-logic-navigation {
+        font-size: 22px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: 2px solid #e1e8ed;
+        border-bottom:2px solid #e1e8ed;
+        float: center;
+        background-color:#fff;
+        display: block;
+        width:100%;
+        height:60px;
+        text-align:center;
+    }
+
+    .persona2-logic-navigation .persona2-logic-nav-item {
+        font-size: 22px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px; 
+        margin-bottom: 1px;
+        float: left;
+        display: block;
+        text-align:center;
+    }
+
+    .persona2-logic-navigation .persona2-logic-v-center {
+        font-size: 22px;
+       font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        text-align:center;
+        position:relative;
+        top:50%;
+        transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+    }
+
+    .persona2-logic-navigation .persona2-logic-nav-item a {
+        font-size: 22px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        padding:20px 40px 19px 40px;
+        text-decoration:none;
+        color:#55acee;
+        border-right:2px solid #e1e8ed;
+        transition: box-shadow 100ms ease;
+    }
+
+    .persona2-logic-navigation .persona2-logic-nav-item:last-child a {
+        font-size: 22px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px; 
+        margin-bottom: 1px;
+        border-right:none;
+    }
+
+    .persona2-logic-navigation .persona2-logic-nav-item a:hover {
+        font-size: 22px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        box-shadow: 0 -16px 0 -11px #55acee inset;
+        /*box-shadow: 0 -15px 0 -10px #55acee inset;*/
+    }
+
+    .persona2-logic-searchEditBox {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 2px;
+        width: 403px;
+        height: 34px;
+    }
+    
+    .persona2-logic-searchButton {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px; 
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 2px;
+        color: #757575;
+        width: 125px;
+        height: 36px;
+    }
+
+    .persona2-logic-searchButton:hover {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 2px;
+        color: #000000;
+        width: 125px;
+        height: 36px;
+    }
+
+
+    .persona2-logic-forms {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+
+    /*botão simples*/
+    .persona2-logic-buttons {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 2px;
+        color: #757575;
+        width: 125px;
+        height: 36px;
+    }
+
+    /*botão simples*/
+    .persona2-logic-buttons:hover {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 2px;
+        color: #000000;
+        width: 125px;
+        height: 36px;
+   }
+
+    .persona2-floating-box {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border: 1px solid #E7E7E7;
+        float: center;
+        display: inline-block;
+        width: 75%;
+        height: 75%;
+        color: #C8C8C8;
+        background-color: White;
+    }
+
+    .persona2-after-box {
+        border: 3px solid red;
+    }
+	
+	
+    .persona2-logic-singlelineEditBox {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 2px;
+        width: 403px;
+        height: 34px;
+    }	
+
+    .persona2-logic-multiplelinesEditBox {
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 4px;
+        padding: 2px;
+        width: 403px;
+        height: 403px;
+    }		
+
+    .persona2-logic-footer { /*G ??*/
+        font-size: 16px;
+        font-family: arial, sans-serif;
+        font-weight: normal;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        border: 2px solid Gray;
+        border-bottom: 16px solid #B0B0B0;
+        background-color: #D0D0D0;
+        color: #DD88DD;
+        /*color: White;*/
+        /*color: Pink;*/
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+	
+	.persona2-logic-text-primary {
+        color: #337ab7;
+    }
+	
+
+    .persona2-logic-bg-primary {
+        color: #fff;
+        background-color: #337ab7;
+    }	
+	
+
+    /* #persona3 limb.: */
+
+    .persona3-creativity {
+		
+		/* font */
+        font-size: 13px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        
+		/* margin */
+		margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        
+	    /* border */
+		border: 1px solid Gray;
+        border-bottom: 11px solid #C9C9C9;
+        
+		/* color */
+		background-color: White;
+        color: White;
+        
+		position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+	
+    .persona3-creativity-container {
+        padding-right: 11px;
+        padding-left: 11px;
+        margin-right: auto;
+        margin-left: auto;
+    }	
+
+    .persona3-creativity-realist{
+        font-size: 13px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 1px solid Gray;
+        border-bottom: 11px solid #C9C9C9;
+        background-color: White;
+        color: White;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+
+    .persona3-creativity-realistic{
+        font-size: 13px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 1px solid Gray;
+        border-bottom: 11px solid #C9C9C9;
+        text-align: center;
+        background-color: White;
+        color: White;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+    } 
+
+    .persona3-creativity-concrete{
+        font-size: 13px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 1px solid Gray;
+        border-bottom: 11px solid #C9C9C9;
+        background-color: White;
+        color: White;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+
+    .persona3-creativity-colors{
+        font-size: 13px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 1px solid Gray;
+        border-bottom: 11px solid #C9C9C9;
+        background-color: White;
+        color: White;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+
+     /*Ítem de interação, precisa ser maior*/
+    .persona3-creativity-links{
+        font-size: 15px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        text-align: center;
+        color: #d811d8;
+    }
+
+    /*Ítem de interação, precisa ser maior*/
+    /*botão simples*/
+    .persona3-creativity-buttons {
+        font-size: 15px;
+        font-family: Comic Sans MS;
+        font-weight:lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding: 1px;
+        color: #757575;
+        width: 125px;
+        height: 36px;
+    }
+
+    /*Ítem de interação, precisa ser maior*/
+    /*botão simples*/
+    .persona3-creativity-buttons:hover {
+        font-size: 15px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding: 1px;
+        color: #000000;
+        width: 125px; 
+        height: 36px; 
+    }
+
+    .persona3-creativity-footer { /*C*/
+        font-size: 11px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 1px solid Gray;
+        border-bottom: 11px solid #C9C9C9;
+        background-color: #D0D0D0;
+        color: #DD88DD;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+	
+	
+	.persona3-creativity-text-primary {
+        color: #337ab7;
+    }
+	
+    .persona3-creativity-bg-primary {
+        color: #fff;
+        background-color: #337ab7;
+    }	
+	
+	
+    /*  #persona4  rep.: */
+
+    .persona4-action {
+		
+		/* font */
+        font-size: 8pt;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        
+		/* margin */
+		margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        
+		/* border */
+		border: 1px solid Gray;
+        border-bottom: 8px solid #D8D8D8;
+        
+		/* color */
+		background-color: White;
+        color: White;
+        
+		position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+	
+    .persona4-action-container {
+        padding-right: 8px;
+        padding-left: 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }	
+
+    .persona4-action-naturalist {
+        font-size: 8pt;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px; 
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border: 1px solid Gray;
+        border-bottom: 8px solid #D8D8D8;
+        background-color: White;
+        color: White;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+
+    .persona4-action-funny {
+        font-size: 8pt;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border: 1px solid Gray;
+        border-bottom: 8px solid #D8D8D8;
+        background-color: White;
+        color: White;
+        position:fixed;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+
+    /*Ítem de interação, precisa ser maior*/
+    .persona4-action-links {
+        font-size: 10px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        text-align: center;
+        color: #d811d8;
+    }
+
+    /*Ítem de interação, precisa ser maior*/
+    .persona4-action-funnylinks{
+        font-size: 10px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        text-align: center;
+        color: Pink;
+    }
+
+    /*Ítem de interação, precisa ser maior*/
+    /*botão simples*/
+    .persona4-action-buttons {
+        font-size: 10px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        padding: 1px;
+        color: #757575;
+        width: 125px;
+        height: 36px;
+    }
+
+    /*Ítem de interação, precisa ser maior*/
+    /*botão simples*/
+    .persona4-action-buttons:hover {
+        font-size: 10px;
+        font-family: Comic Sans MS;
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        padding: 1px;
+        color: #000000;
+        width: 125px;
+        height: 36px;
+    }
+
+    .persona4-action-footer { /*#D \o/ */
+        font-size: 8pt;
+        font-family: Comic Sans MS;
+       /*font-family: fantasy; */
+        font-weight: lighter;
+        margin-left: 1px;
+        margin-right: 1px; 
+        margin-top: 1px;
+        margin-bottom: 1px;
+        border: 1px solid Gray;
+        border-bottom: 8px solid #D8D8D8;
+        background-color: #D0D0D0;
+        color: #d811d8; /*#DD88DD;*/
+        /*position:fixed;*/
+        left:0px;
+        bottom:0px;
+        width:100%;
+        height:5%;
+        text-align: center;
+    }
+
+
+	.persona4-action-text-primary {
+        color: #337ab7;
+    }
+
+    .persona4-action-bg-primary {
+        color: #fff;
+        background-color: #337ab7;
+    }	
+
+
+
+
 
 
 /*
